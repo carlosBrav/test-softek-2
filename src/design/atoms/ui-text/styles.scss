@@ -1,0 +1,83 @@
+.text {
+  margin: 0px;
+}
+
+.text-weight {
+
+  &--bold {
+    font-weight: 700;
+  }
+
+  &--normal {
+    font-weight: 600;
+  }
+
+  &--thin {
+    font-weight: 400;
+  }
+}
+
+.text-size {
+  &--smaller {
+    font-size: 10px;
+  }
+  &--small {
+    font-size: 12px;
+  }
+
+  &--medium {
+    font-size: 14px;
+  }
+
+  &--regular {
+    font-size: 16px;
+  }
+
+  &--regular-high {
+    font-size: 18px;
+  }
+
+  &--high {
+    font-size: 20px;
+  }
+
+  &--middle-high {
+    font-size: 24px;
+  }
+  
+  &--bigger {
+    font-size: 32px;
+  }
+
+  &--max-bigger {
+    font-size: 40px;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 28px;
+    }
+  }
+}
+
+.text-color {
+  &--primary {
+    color: rgba(3, 5, 15, 1);
+  }
+  &--gray {
+    color: rgba(94, 100, 136, 1);
+  }
+  &--gray-200 {
+    color: rgba(121, 129, 178, 1);
+  }
+  &--white {
+    color: rgba(255, 255, 255, 1);
+  }
+  &--secondary {
+    color: rgba(10, 5, 30, 1);
+  }
+  &--black {
+    color: rgba(20, 25, 56, 1);
+  }
+  &--red {
+    color: rgba(247, 5, 45, 1);
+  }
+}
