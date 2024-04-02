@@ -66,7 +66,7 @@ function useHome(repository: AuthenticationRepository, plansRepository: PlansRep
   };
   const onSubmit = (data: any) => {
     console.log(data);
-    goToPlanes()
+    goToPlanes();
   };
   return {
     goToPlanes,
@@ -74,7 +74,7 @@ function useHome(repository: AuthenticationRepository, plansRepository: PlansRep
     errors,
     control,
     watch,
-    onSubmit
+    onSubmit,
   };
 }
 export default useHome;
